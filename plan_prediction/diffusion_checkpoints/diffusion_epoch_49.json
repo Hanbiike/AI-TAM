@@ -1,0 +1,31 @@
+{
+    "epoch": 49,
+    "loss": 1.0563164057374812,
+    "loss_ema": 1.065395913316042,
+    "pixel_acc": 0.9127586663715423,
+    "miou": 0.35740049277415326,
+    "dice": 0.4707370998440458,
+    "best_loss": 0.5371880105563572,
+    "model_version": "1.0.0-segmentation",
+    "created_at": "2026-06-21T01:51:54.011819",
+    "config": {
+        "epochs": 50,
+        "batch_size": 128,
+        "lr": 0.0002,
+        "img_size": 256,
+        "limit": null,
+        "save_every": 1,
+        "sample_every": 1,
+        "workers": 4,
+        "compile": false,
+        "port": 8080,
+        "base_dir": "c:\\Users\\hanbi\\Downloads\\RPLAN dataset\\Network",
+        "resume": true,
+        "model_version": "1.0.0-segmentation",
+        "max_grad_norm": 1.0,
+        "loss_ema_decay": 0.95,
+        "encoder_name": "resnet34",
+        "use_class_weights": true,
+        "dice_weight": 1.0
+    }
+}
