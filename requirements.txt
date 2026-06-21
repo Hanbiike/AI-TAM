@@ -1,0 +1,22 @@
+# ML & Data (plan_prediction & price_prediction)
+torch
+torchvision
+segmentation-models-pytorch
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+category-encoders
+tqdm
+sentence-transformers
+Pillow
+
+# Telegram Bot
+aiogram>=3.0.0
+python-dotenv
+
+# Jupyter
+jupyter
+ipykernel
