@@ -12,4 +12,9 @@ def get_cancel_price_kb() -> InlineKeyboardMarkup:
     kb = InlineKeyboardBuilder()
     kb.row(InlineKeyboardButton(text="❌ Отменить / На главную", callback_data="back_to_main"))
     return kb.as_markup()
+def get_final_price_kb() -> InlineKeyboardMarkup:
+    kb = InlineKeyboardBuilder()
+    kb.row(InlineKeyboardButton(text="🔄 Новые параметры", callback_data="price_template"))
+    kb.row(InlineKeyboardButton(text="🏠 На главную", callback_data="back_to_main"))
+    return kb.as_markup()
 
